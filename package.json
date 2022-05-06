@@ -1,23 +1,25 @@
 {
-  "name": "cra-template-basis",
-  "version": "1.0.0",
+  "name": "cra-template-base-ts",
+  "author": "LuoWei",
+  "version": "1.0.5",
+  "description": "The base TypeScript template for Create React App.",
+  "main": "template.json",
   "keywords": [
     "react",
     "create-react-app",
     "template",
-    "typescript"
+    "base"
   ],
-  "description": "The base TypeScript template for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git"
+    "url": "https://github.com/ShowMeTheCodePLZ/cra-template-base"
   },
   "license": "MIT",
   "engines": {
     "node": ">=14"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/ShowMeTheCodePLZ/cra-template-base/issues"
   },
   "files": [
     "template",

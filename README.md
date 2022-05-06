@@ -1,4 +1,4 @@
-# cra-template-basis
+# cra-template-base
 
 
 
@@ -14,7 +14,6 @@
 - typescript
 - react-router-dom v6
 - axios
-- vite
 - eslint
 - prettier
 - commitizen
@@ -22,16 +21,14 @@
 ## Getting Started
 
 ```shell
-npm install degit -g
-
 # yarn
-yarn create react-app my-app --template typescript
-cd myapp
+yarn create react-app my-app --template base-ts
+cd my-app
 npx husky install
 
 # npm
-npx create-react-app my-app --template typescript
-cd myapp
+npx create-react-app my-app --template base-ts
+cd my-app
 npx husky install
 ```
 
@@ -57,7 +54,7 @@ npx husky install
 - layouts —— 存放布局方案
 - lib/vendor —— 存放第三方库
 - pages/views —— 存放项目的页面
-- router —— 存放布局方案
+- routes —— 存放路由组件
 - settings —— 存放一些全局的设置
 - store —— 存放状态管理相关
 - utils —— 存放通用的工具类函数
